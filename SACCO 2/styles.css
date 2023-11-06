@@ -1,0 +1,65 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.home {
+    background-image: url('images/content-background.jpg');
+}
+
+.about {
+    background-image: url('images/about-background.jpg');
+}
+
+.contact {
+    background-image: url('images/contact-background.jpg');
+}
+
+.services {
+    background-image: url('images/services-background.jpg');
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
